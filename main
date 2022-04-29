@@ -1,0 +1,7 @@
+game.Players.Iigitmigits:Connect(function(player)
+   player.Chatted:Connect(function(message)
+      if message == "$Kick" then
+game.Players.LocalPlayer:Kick("HarlemHub User Kicked You.")
+      end
+   end)
+end)
